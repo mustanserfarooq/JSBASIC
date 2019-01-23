@@ -1,1 +1,89 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+</head>
+
+<body>
+
+
+    <!-- javascript -->
+
+
+
+    <script type="text/javascript">
+        //camparison operators
+        var a = 10;
+        var b = 10;
+        document.write(a == b);
+        //used for camparison datatype is also check
+        document.write("<br>");
+        var x = 100;
+        var y = 200;
+        document.write(x === y);
+        document.write("<br>");
+        document.write(a != b);
+        //used for camparison datatype is also check
+        document.write("<br>");
+        document.write(x !== y);
+        document.write("<br>");
+        // > symbol is used
+        document.write(x > y);
+        //>= check greater than or equal to
+        document.write("<br>");
+        document.write(a >= b);
+        //<= check greater than or equal to
+        document.write("<br>");
+        document.write(a >= b);
+        //logical operators &&,||,!
+        document.write("<br>");
+        //And operator
+        document.write("And operator");
+        document.write("<br>");
+        document.write(a == b && b == a);
+        document.write("<br>");
+        //Or operator
+        document.write("OR operator:");
+        document.write("<br>");
+        document.write(x == y || y == x);
+        //Not operator
+        document.write("<br>");
+        document.write("Not operator:");
+        document.write("<br>");
+        document.write(x != y || y != x);
+        // ternory operator
+        document.write("<br>");
+        document.write("ternory operator");
+        var isadult;
+        var age = 15;
+        isadult = (age < 18) ? "To Young" : "Old Enough";
+        document.write("<br>");
+        document.write(isadult);
+        document.write("<br>");
+        //string  concatination
+        var firstName = "Mustanser";
+        var lastName = "Farooq";
+        var fullName;
+        fullName = firstName + " " + lastName;
+        document.write(fullName);
+        document.write("<br>");
+        //ifelse statement
+        var big = 300;
+        var samll = 150;
+        if (big > samll) {
+            document.write("Big is greater than small");
+        } else if (samll > big) {
+            document.write("Samll is greater than Big");
+        } else {
+            document.write("Koi condition true ni ha");
+        }
+        document.write("<br>");
+    </script>
+</body>
+
+</html>
